@@ -12,7 +12,7 @@ class Student:
         return self.__name
     def greet(self):
         return f"Hi! My name is {self.__name}"
-    def set_age(self,name):
+    def set_name(self,name):
         self.__name = name
 
 student1 = Student("Josef")
