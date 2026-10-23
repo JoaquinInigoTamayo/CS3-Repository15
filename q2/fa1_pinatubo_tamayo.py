@@ -62,7 +62,6 @@ class Magazine(Publication):
     def set_issue_number(self,issue_number):
         self.issue_number = issue_number
         
-
     
 pub1 = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Dongen, H.")
 book1 = Book("The Hobbit", "J.R.R. Tolkien", 310)
