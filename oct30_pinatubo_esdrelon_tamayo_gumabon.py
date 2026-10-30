@@ -1,14 +1,10 @@
-
 class Warrior():
     def special_move(self):
         print("The Warrior swings a mighty sword!")
-
     
-        
 class Mage():
     def special_move(self):
         print("The Mage casts a powerful spell!")
-
 
 class Archer():
     def special_move(self):
