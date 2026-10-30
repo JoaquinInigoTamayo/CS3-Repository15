@@ -34,7 +34,7 @@ class PhilHealthPatient(Patient):
         return f"Final Bill: ₱{self.bill_amount:.2f}\n"
 
 
-print("Hostpital Billing System\n-----------------------")
+print("Hospital Billing System\n-----------------------")
 regular_patient = Patient("Juan Dela Cruz", 15000)
 print(regular_patient.get_name())
 print(regular_patient.get_bill_amount())
